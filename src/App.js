@@ -1,10 +1,11 @@
 import "./App.css";
 import "./style.scss";
-import Navigation from "./Commonpanel";
+import { Navigation,Hero} from "./Commonpanel";
 function App() {  
     return (
-        <div className="main-container">
-            <Navigation/>
+        <div>
+            <Navigation />
+            <Hero/>
 
         </div>
       );

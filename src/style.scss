@@ -6,31 +6,66 @@
 a {
     text-decoration: none;
     padding-right: 10px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2E2E;
 }
 li {
     list-style: none;
 }
 .main-container {
     text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
 }
-img {
-    height: auto;
-    width: 100%;
-}
+
 .btn {
-    padding: 10px;
-    background-color: darkcyan;
+    padding: 6px 16px 6px 16px;
+    background-color: #D01C28;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600px;
-    border-radius: 10px;
+    outline: none;
+    border: none;
 }
 
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     ul {
         display: inline-flex;
+    }
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+.left-container {
+    h1 {
+        font-family: Poppins;
+        font-size: 108px;
+        font-weight: 800;
+    }
+    p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .cat-btn {
+        padding: 6px 16px 6px 16px;
+        border: solid 1px #000000;
+        font-size: 16px;
+        font-family: Poppins;
+        color: #5A5959;
+        
+    }
+    .buttons {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: auto auto;
     }
 }
