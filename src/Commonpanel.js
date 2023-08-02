@@ -25,7 +25,7 @@ const Hero = () => {
 
     return (
         <section>
-            <div className="hero-container max-width">
+            <div className="hero-container">
                 <div className="main-container">
                     <div className="left-container">
                         <div>
